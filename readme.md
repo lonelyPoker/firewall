@@ -24,13 +24,17 @@ firewall
 
 * **JS(JavaScript加密脚本)**
   * *encrypt-dom.js*
+
     `沿用老版本dom文档内容加密function`
   * *sxf-AF-8.0.45.js*
+
     `深信服防火墙8.0.45新版本webpack加密lib`
 * **spiders(scrapy爬虫脚本)**
   * *qax.py*
+
     `奇安信防火墙日志爬虫脚本`
   * *sangfor*
+
     `深信服防火墙日志爬虫脚本`
 
 ### 运行环境
@@ -45,8 +49,10 @@ firewall
 ### 运行
 
 1. **奇安信**
+
    `scrapy crawl qax`
 2. **深信服**
+
    `scrapy crawl sangfor`
 
 ### 注意事项
